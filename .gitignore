@@ -54,3 +54,5 @@ Logs/
 Thumbs.db
 ehthumbs.db
 desktop.ini
+/.idea
+/.vs/ObsoleteOperationInterceptor

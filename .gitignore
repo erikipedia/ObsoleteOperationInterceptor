@@ -1,0 +1,56 @@
+# --------------------
+# Build outputs
+# --------------------
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet packages (restore from packages.config or csproj PackageReference)
+packages/
+*.nupkg
+*.snupkg
+
+# --------------------
+# Visual Studio
+# --------------------
+.vs/                # VS cache
+*.user              # User-specific settings
+*.suo
+*.pdb               # Debug symbols
+*.dbmdl
+*.bak
+*.cache
+*.log
+*.ldf
+
+# --------------------
+# JetBrains Rider / IntelliJ
+# --------------------
+.idea/              # Rider project settings
+*.iml               # Module files
+out/                # Build outputs (rarely used in .NET, but safe to ignore)
+
+# --------------------
+# ASP.NET / IIS
+# --------------------
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+PublishProfiles/
+*.csproj.user
+App_Data/
+Temporary ASP.NET Files/
+
+# --------------------
+# Logs (log4net, custom logs, etc.)
+# --------------------
+Logs/
+*.log
+
+# --------------------
+# Misc
+# --------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
